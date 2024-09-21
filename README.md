@@ -1,11 +1,11 @@
 # Python - Adam Asmaca Oyunu
 
-Bu oyunda 2 farklı farklı method ile kelime listesi çekilebiliyor.
+Bu oyunda 2 farklı method ile kelime listesi çekilebiliyor.
 
-1. Method - Herhangi bir JSON datadan almak
-2. Method - Herhangi bir web sitesinden html parse etmek
+1. Method - Herhangi bir JSON datasından kelimeleri almak
+2. Method - Herhangi bir web sitesinden html parse ederek kelimeleri almak
 
-Birinci methodda requests ve json kütüphaneleri kullanıldı.
-İkinci methodda requests ve BeautifulSoup kütüphaneleri kullanılarak data scraping işlemi yapıldı.
+- Birinci methodda requests ve json kütüphaneleri kullanıldı.
+- İkinci methodda requests ve BeautifulSoup kütüphaneleri kullanılarak data scraping işlemi yapıldı.
 
-# ozhanmengucek.com
+<a href="https://ozhanmengucek.com">ozhanmengucek.com</a>
