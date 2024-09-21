@@ -8,7 +8,7 @@ isim = input("Adınız: ")
 print(f"\nAdam Asmaca oyununa hoşgeldin {isim}")
 
 
-# Kelime listesini apiden çekerek oluştur
+# 1. Method - Kelime listesini apiden çekerek oluştur
 def getWordListApi():
     url = "https://gist.githubusercontent.com/f/31ce39df408bebd30774458ff09d3d56/raw/c1c3c32a5a9a9965108998a7c7466088ba741813/kelimeler.json"
     response = requests.get(url)
@@ -16,7 +16,7 @@ def getWordListApi():
     return jsonData
 
 
-# Kelime listesini html scraping ile oluştur
+# 2. Method - Kelime listesini html scraping ile oluştur
 def getWordListScraping():
     url = "https://isimsehirhayvan.net/c/tr/1688841/-/6-harfli-kelime/"
     response = requests.get(url)
